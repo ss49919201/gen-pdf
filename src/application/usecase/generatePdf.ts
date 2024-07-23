@@ -2,9 +2,9 @@ import {
   GeneratePdfUsecase,
   GeneratePdfUsecaseInput,
   GeneratePdfUsecaseOutput,
-} from "../../../port/in/generatePdf";
-import { GeneratePdf } from "../../../port/out/generatePdf";
-import { SavePdf } from "../../../port/out/savePdf";
+} from "../port/in/generatePdf";
+import { GeneratePdf } from "../port/out/generatePdf";
+import { SavePdf } from "../port/out/savePdf";
 
 export function GeneratePdfUsecaseFn(
   generatePdf: GeneratePdf,

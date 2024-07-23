@@ -1,6 +1,6 @@
-import { GeneratePdf } from "../../port/out/generatePdf";
-import { SavePdf } from "../../port/out/savePdf";
-import { GeneratePdfUsecaseFn } from "../application/usecase/generatePdf";
+import { GeneratePdf } from "../../../application/port/out/generatePdf";
+import { SavePdf } from "../../../application/port/out/savePdf";
+import { GeneratePdfUsecaseFn } from "../../../application/usecase/generatePdf";
 
 (async () => {
   // FIXME
